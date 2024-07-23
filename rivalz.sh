@@ -89,7 +89,7 @@ send "HDD\r"
 expect "Select disk serial number:" 
 send "\r"
 expect "Enter disk size you want to allow the client to use:" 
-send "50\r"
+send "100\r"
 expect eof
 EOF
 
